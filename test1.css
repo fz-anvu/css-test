@@ -23,8 +23,7 @@ form label {
   font-weight: 400;
 }
 
-.field input,
-.field select {
+.field input {
   width: 100%;
   font-size: 14px;
   margin: 0;
@@ -35,8 +34,7 @@ form label {
   line-height: 16px;
 }
 
-.field input:focus,
-.field select:focus {
+.field input:focus {
   outline: none;
   background: #fff;
   border-color: var(--primary);
