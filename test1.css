@@ -23,6 +23,7 @@
   transition: border-color 0.2s, background 0.2s; */
     /* display: inline-block; */
   width: 100%;
+  font-size: 14px;
   margin: 0;
   padding: 10px 14px;
   background-color: #fff;
