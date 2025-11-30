@@ -39,8 +39,13 @@ form label {
 
 .field [data-test-id="error"] {
   margin-top: 6px;
-  font-size: 12px;
+  font-size: 13.6px;
   color: #d32f2f;
+}
+
+[data-test-id="error"] [role="alert"] {
+  padding: 12px;
+  font-size: 13.6px;
 }
 
 .zeal-button.submit-button {
