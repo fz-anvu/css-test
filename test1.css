@@ -4,7 +4,7 @@
 
 .field label {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 0;
   font-family: LetterRegular, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.4;
