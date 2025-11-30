@@ -2,6 +2,10 @@
   margin-bottom: 18px;
 }
 
+#accepted-card-types {
+  margin-top: 8px;
+}
+
 form label {
   display: block;
   margin-bottom: 0;
