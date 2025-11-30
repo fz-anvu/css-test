@@ -1,3 +1,10 @@
+:root {
+  --border: #cec5c6;
+  --border-error: #dc1928;
+  --primary: #d0021b;
+  --radius-input: 2px;
+}
+
 .email-field, .card-holder-field, .card-number-field, .card-expiry-field, .security-code-field {
   margin-bottom: 18px;
 }
@@ -18,21 +25,13 @@ form label {
 
 .field input,
 .field select {
-  /* width: 100%;
-  padding: 13px 14px;
-  border-radius: var(--radius-input);
-  border: 1px solid var(--border);
-  font-size: 1rem;
-  background: #fafafa;
-  transition: border-color 0.2s, background 0.2s; */
-    /* display: inline-block; */
   width: 100%;
   font-size: 14px;
   margin: 0;
   padding: 10px 14px;
   background-color: #fff;
-  border: 1px solid #cec5c6;
-  border-radius: 2px;
+  border-radius: var(--radius-input);
+  border: 1px solid var(--border);
   line-height: 16px;
 }
 
@@ -44,18 +43,8 @@ form label {
 }
 
 
-.input-error {
-  border-color: var(--border-error) !important;
-}
-
-.error-text {
+.field [data-test-id="error"] {
   margin-top: 6px;
-  color: var(--border-error);
-  font-size: 0.85rem;
-}
-
-
-.row-2 {
-  display: flex;
-  gap: 12px;
+  border-color: var(--border-error) !important;
+  font-size: 12px;
 }
