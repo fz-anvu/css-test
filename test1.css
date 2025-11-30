@@ -1,10 +1,3 @@
-:root {
-  --border: #cec5c6;
-  --border-error: #dc1928;
-  --primary: #d0021b;
-  --radius-input: 2px;
-}
-
 .email-field, .card-holder-field, .card-number-field, .card-expiry-field, .security-code-field {
   margin-bottom: 18px;
 }
@@ -29,20 +22,19 @@ form label {
   margin: 0;
   padding: 10px 14px;
   background-color: #fff;
-  border-radius: var(--radius-input);
-  border: 1px solid var(--border);
+  border-radius: 2px;
+  border: 1px solid #cec5c6;
   line-height: 16px;
 }
 
 .field input:focus {
   outline: none;
   background: #fff;
-  border-color: var(--primary);
+  border-color: #d0021b;
 }
-
 
 .field [data-test-id="error"] {
   margin-top: 6px;
-  border-color: var(--border-error) !important;
+  border-color: #dc1928 !important;
   font-size: 12px;
 }
