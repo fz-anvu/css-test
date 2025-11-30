@@ -1,4 +1,4 @@
-.field {
+.email-field, .card-holder-field, .card-number-field, .card-expiry-field, .security-code-field {
   margin-bottom: 18px;
 }
 
