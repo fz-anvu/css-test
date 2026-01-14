@@ -66,5 +66,5 @@ form label {
 }
 
 [data-test-id="payment-confirmation"] {
-  background: #ffffff;
+  background-color: #ffffff;
 }
