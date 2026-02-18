@@ -34,7 +34,8 @@ form label {
 }
 
 .field input.border-danger-500 {
-  border-color: #d32f2f !important;
+  --error-border-color: #00FFFF;
+  border-color: --error-border-color !important;
 }
 
 .field [data-test-id="error"] {
